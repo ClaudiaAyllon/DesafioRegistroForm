@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="contenedor-formulario">
+        <div class="img">
+            <img src="assets/logo.png" alt="" width="50" height="50" >
+        </div>
+        <h2>CREA TU CUENTA</h2>
+        <h5>Una suscripción para Scribd.Everand y SlideShare</h5>
+        <h2>¡Bienvenido a nuestra comunidad!</h2>
+        
+        <form action="ruta_a_tu_script_de_procesamiento" method="post">
+            <div class="campo">
+                <label for="nombre"></label>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre de usuario" required>
+            </div>
+            <a class="boton" href="https://www.google.com/intl/es-419/account/about/">
+                <div>
+                    <img src="assets/google.png" class="google">
+                </div>
+                <div>
+                    <p>Continuar con Google</p>
+                </div>
+            </a>
+            <a class="boton" href="https://www.google.com/intl/es-419/account/about/">
+                <div>
+                    <img src="assets/apple.png" class="google">
+                </div>
+                <div>
+                    <p>Continuar con Apple</p>
+                </div>
+            </a>
+            <div class="lineas">
+                <hr>
+                <div>o</div>
+                <hr>
+            </div>
+            <div class="campo">
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
+            </div>
+            <div class="campo">
+                <label for="password"> </label>
+                <input type="password" id="password" name="password" placeholder="Contraseña" required>
+            </div>
+            <button type="submit">Registrarse</button>
+            <a class="boton" href="https://www.google.com/intl/es-419/account/about/">
+                <div>
+                    <label for="">No soy un robot</label>
+                    <input type="checkbox" name="No soy un robot"/><br/>
+                </div>
+                <div>
+                    <img src="assets/captcha.png" class="captcha" >
+                </div>
+            </a>
+        </form>
+    </div>
+</body>
+</html>
+
